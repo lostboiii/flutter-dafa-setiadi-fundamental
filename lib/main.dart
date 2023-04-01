@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
  title: 'Kalkulator',
  home: Scaffold(
  appBar: AppBar(
- title: Text('Kalkulator gwecj'),
+ title: Text('Kalkulator gwecjh'),
  ),
  ),
  );
