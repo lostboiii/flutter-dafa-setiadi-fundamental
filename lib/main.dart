@@ -7,7 +7,15 @@ class MyApp extends StatelessWidget {
  title: 'Kalkulator',
  home: Scaffold(
  appBar: AppBar(
- title: Text('Kalkulator gwecjh'),
+ title: Text('Kalkulator gwecj'),
+ ),
+ body: Padding(
+  padding: const EdgeInsets.all(20.0),
+  child: Column(
+    children: [
+      Text("Hasil : ", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+    ],
+  ),
  ),
  ),
  );
