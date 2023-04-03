@@ -14,6 +14,31 @@ class MyApp extends StatelessWidget {
   child: Column(
     children: [
       Text("Hasil : ", style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),),
+      SizedBox(height: 20),
+      TextField(decoration: InputDecoration(labelText: "Angka pertama", border: OutlineInputBorder(borderRadius: BorderRadius.circular(20))),),
+      SizedBox(height: 20),
+      TextField(decoration: InputDecoration(labelText: "Angka kedua", border: OutlineInputBorder(borderRadius: BorderRadius.circular(20))),),
+      SizedBox(height: 20),
+      ElevatedButton(onPressed: (){
+
+      }
+      , child: Text("/")),
+      SizedBox(height: 20),
+      ElevatedButton(onPressed: (){
+
+      }
+      , child: Text("*")),
+      SizedBox(height: 20),
+      ElevatedButton(onPressed: (){
+
+      }
+      , child: Text("+")),
+      SizedBox(height: 20),
+      ElevatedButton(onPressed: (){
+
+      }
+      , child: Text("-")),
+      SizedBox(height: 20),
     ],
   ),
  ),
